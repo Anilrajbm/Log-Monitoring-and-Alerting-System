@@ -26,7 +26,7 @@ Each log entry contains:
   "message": "DB connection timeout"
 }
 
-## Fields
+### Fields
 timestamp: ISO format / epoch time
 level: INFO / WARN / ERROR
 service: auth / payment / order
