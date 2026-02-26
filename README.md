@@ -1,115 +1,82 @@
-# Log Monitoring & Alerting System
+# 🛡️ LogPulse – Smart Log Monitoring Dashboard
 
-## Introduction
+LogPulse is a lightweight log monitoring and alerting system built using Streamlit and Machine Learning.  
+It automatically classifies logs, detects error spikes, and visualizes system health in near real-time.
 
-Modern software systems generate large volumes of logs across multiple services.
-Engineers rely on log monitoring tools to search logs efficiently and get alerted when abnormal behavior such as errors, spikes, or suspicious patterns occur.
+---
 
-This project implements a lightweight log monitoring and alerting system using mock log data with a modular backend and a React-based dashboard.
+## 🚀 Features
 
-## Objective
+- Intelligent log classification using TF-IDF + Logistic Regression
+- Automatic alert generation based on error thresholds
+- Error trend visualization (per-minute aggregation)
+- Time-based log filtering (Last X minutes)
+- Category-wise error distribution (Pie Chart)
+- Styled and filterable log table
+- Export filtered logs as CSV
+- Auto-refresh every 10 seconds
 
-Build a system that:
-Ingests application logs from a file
-Allows searching and filtering of logs
-Detects abnormal patterns using alert rules
-Clearly explains why an alert was triggered
+---
 
-## Input Data
+## 🛠️ Tech Stack
 
-Logs are uploaded as text or log files and internally converted into structured JSON objects.
+- Python 3.8+
+- Streamlit
+- Pandas
+- Scikit-learn
+- Matplotlib
+- JSON (for log storage)
 
-Example Parsed Log
+---
 
-{
-  "time": "2026-02-19 10:15:30",
-  "level": "ERROR",
-  "message": "DB connection timeout"
-}
+## 📂 Project Structure
 
-### Fields
+logpulse/
+│
+├── app.py
+├── ml_engine.py
+├── data_loader.py
+├── alert_engine.py
+├── ui_components.py
+├── logs.json
+└── README.md
 
-timestamp: ISO format / epoch time
-level: INFO / WARN / ERROR
-service: auth / payment / order
-message: log message text
+---
 
-## Tech Stack
+## ▶️ Installation & Setup
 
-Frontend:
+### 1️⃣ Install Dependencies
 
-React.js (Vite)
-Fetch API for backend communication
-Dashboard for logs and alerts
+pip install streamlit pandas scikit-learn matplotlib streamlit-autorefresh
 
-Backend:
+### 2️⃣ Run the Application
 
-Node.js
-Express.js
-Multer (file upload)
-In-memory log storage
-REST APIs for logs and alerts
+streamlit run app.py
 
-## Core Requirements Implementation
+The dashboard will open automatically in your browser.
 
-1. Log Ingestion
+---
 
-Logs are uploaded via REST API
-Raw log files are read and parsed line-by-line
-Logs are converted into structured objects
-Parsed logs are stored in memory and forwarded for further processing
+## 📊 How It Works
 
-2. Search & Filter
+1. Logs are loaded from a JSON file.
+2. Machine Learning classifies each log message into predefined categories.
+3. Alerts are generated when error counts exceed defined thresholds.
+4. The dashboard displays:
+   - Error trends over time
+   - Category-wise error distribution
+   - Time-window filtered logs
+   - Styled log table
 
-Supported filters (via query parameters):
-Log level (INFO / WARN / ERROR)
-Keyword search in message (e.g., timeout)
-Time range (from – to)
-Filtering is performed on the backend and results are returned to the frontend.
+---
 
-3. Alert Rule Engine
+## 💡 Use Cases
 
-A rule-based alert engine evaluates stored logs.
+- Monitoring backend services
+- Detecting abnormal error spikes
+- Identifying recurring failure patterns
+- Faster root cause analysis
+- Lightweight alternative to heavy monitoring tools
 
-Implemented rules:
+---
 
-High Error Rate
-Condition: More than 5 ERROR logs in the last 5 minutes
-Severity: HIGH
-Keyword Spike
-Condition: Keyword timeout appears more than 3 times
-Severity: LOW
-Each alert includes a clear reason and supporting statistics.
-
-4. Alert Output
-
-Alerts are exposed via API
-Displayed in a React-based dashboard
-
-Each alert shows:
-Alert name
-Severity
-Reason for firing
-Supporting stats (count, time window, keyword)
-
-## How to Run the Project
-
-### Backend:
-
-npm install
-
-node server.js
-
-Backend runs at: http://localhost:5000 / http://localhost:6000
-
-### Frontend:
-
-npm install
-
-npm run dev
-
-Frontend runs at: http://localhost:5173
-
-## Conclusion
-
-This project demonstrates a complete log monitoring and alerting workflow, including log ingestion, searching and filtering, rule-based alert detection, and alert visualization using modern web technologies.
