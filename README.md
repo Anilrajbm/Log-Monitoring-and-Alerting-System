@@ -57,7 +57,6 @@ Stored in memory on the backend for processing
 Supported filters:
 Log level (INFO / WARN / ERROR)
 Service name (auth / payment / order)
-Time range (from–to)
 Keyword search in message (e.g., timeout, db error)
 Filtering is performed on the backend and results are sent to the UI.
 
@@ -88,17 +87,6 @@ Count
 Threshold
 Time window
 Keyword
-
-
-5. Export Filtered Logs to CSV
-   
-UI contains an Export CSV button
-Filtered logs are sent to backend
-Backend converts JSON → CSV
-CSV file is downloaded by the user
-
-CSV Columns:
-timestamp, level, service, message
 
 ## How to Run the Project
 
