@@ -64,6 +64,7 @@ Filtering is performed on the backend and results are sent to the UI.
 3. Alert Rule Engine
 
 Implemented alert rules:
+
 Rule 1: High Error Rate
 Condition: ERROR count > X in last Y minutes
 Severity: HIGH
