@@ -109,6 +109,7 @@ Backend runs at: http://localhost:3000
 npm install
 
 npm start
+
 Frontend runs at: http://localhost:3000 / http://localhost:5173 (depending on setup)
 
 ## Stretch Goals Implemented
