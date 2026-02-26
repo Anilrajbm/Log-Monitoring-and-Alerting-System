@@ -51,6 +51,5 @@ POST /upload
 
 6. Store in Memory
 
-
 let logs = [];
 logs = logsList;
