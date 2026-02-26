@@ -34,12 +34,14 @@ message: log message text
 
 ## Tech Stack
 
-Frontend
+Frontend:
+
 React.js
 Fetch API for backend communication
 UI controls for filtering and CSV export
 
-Backend
+Backend:
+
 Node.js
 Express.js
 In-memory log storage
