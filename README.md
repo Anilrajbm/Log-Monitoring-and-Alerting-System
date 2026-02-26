@@ -98,7 +98,9 @@ timestamp, level, service, message
 
 ### Backend:
 npm install
+
 node server.js
+
 Backend runs at: http://localhost:3000
 
 ### Frontend:
