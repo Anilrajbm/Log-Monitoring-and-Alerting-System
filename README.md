@@ -32,14 +32,6 @@ level: INFO / WARN / ERROR
 service: auth / payment / order
 message: log message text
 
-# System Architecture
-
-React UI
-  ↓ (API calls)
-Node.js Backend (Express)
-  ↓
-Log Ingestion → Filtering → Alert Engine → CSV Export
-
 # Tech Stack
 
 Frontend
