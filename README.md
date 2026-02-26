@@ -47,12 +47,12 @@ REST APIs for alerts and CSV export
 
 ## Core Requirements Implementation
 
-1️. Log Ingestion
+1. Log Ingestion
 
 Logs are read from logs.json
 Stored in memory on the backend for processing
 
-2️. Search & Filter
+2. Search & Filter
 
 Supported filters:
 Log level (INFO / WARN / ERROR)
@@ -61,7 +61,7 @@ Time range (from–to)
 Keyword search in message (e.g., timeout, db error)
 Filtering is performed on the backend and results are sent to the UI.
 
-3️. Alert Rule Engine
+3. Alert Rule Engine
 
 Implemented alert rules:
 Rule 1: High Error Rate
@@ -75,7 +75,7 @@ Severity: LOW
 Reason: Suspicious repeated keyword occurrence
 Rules are hard-coded for simplicity.
 
-4️. Alert Output
+4. Alert Output
 
 Alerts are returned via API and displayed in UI.
 Each alert shows:
