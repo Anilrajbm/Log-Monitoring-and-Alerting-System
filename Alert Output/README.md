@@ -38,21 +38,3 @@ REST APIs (Express)
 In-memory Log Store
         ↓
 Alert Engine
-
----
-
-#  Module 1 — Log Ingestion
-
-### Purpose
-
-Reads uploaded logs and stores them in memory for processing.
-
-### API Endpoint
-
-POST `/receive-logs`
-
-### Flow
-
-1. Frontend uploads parsed logs.
-2. Backend stores logs in memory:
-
