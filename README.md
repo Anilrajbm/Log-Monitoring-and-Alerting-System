@@ -97,13 +97,14 @@ timestamp, level, service, message
 ## How to Run the Project
 
 ### Backend:
-npm install
 
+npm install
 node server.js
 
 Backend runs at: http://localhost:3000
 
 ### Frontend:
+
 npm install
 npm start
 Frontend runs at: http://localhost:3000 / http://localhost:5173 (depending on setup)
