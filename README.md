@@ -107,19 +107,6 @@ npm start
 
 Frontend runs at: http://localhost:3000 / http://localhost:5173 (depending on setup)
 
-# Project Structure
-
-├── backend
-│   ├── server.js
-│   ├── logs.json
-│
-├── frontend
-│   ├── src
-│   ├── components
-│   ├── App.js
-│
-├── README.md
-
 # Stretch Goals Implemented
 
 Alert severity levels (LOW / HIGH)
