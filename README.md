@@ -3,8 +3,9 @@
 ## Introduction
 
 Modern software systems generate large volumes of logs across multiple services.
-Engineers rely on log monitoring tools to search logs quickly and get alerted when abnormal behavior such as errors, spikes, or suspicious patterns occur.
-This project implements a lightweight log monitoring and alerting system using mock log data.
+Engineers rely on log monitoring tools to search logs efficiently and get alerted when abnormal behavior such as errors, spikes, or suspicious patterns occur.
+
+This project implements a lightweight log monitoring and alerting system using mock log data with a modular backend and a React-based dashboard.
 
 ## Objective
 
@@ -16,17 +17,18 @@ Clearly explains why an alert was triggered
 
 ## Input Data
 
-Logs are provided in JSON format (logs.json).
-Each log entry contains:
+Logs are uploaded as text or log files and internally converted into structured JSON objects.
+
+Example Parsed Log
 
 {
-  "timestamp": "2026-02-19T10:15:30Z",
+  "time": "2026-02-19 10:15:30",
   "level": "ERROR",
-  "service": "payment",
   "message": "DB connection timeout"
 }
 
 ### Fields
+
 timestamp: ISO format / epoch time
 level: INFO / WARN / ERROR
 service: auth / payment / order
@@ -36,59 +38,59 @@ message: log message text
 
 Frontend:
 
-React.js
+React.js (Vite)
 Fetch API for backend communication
-UI controls for filtering and CSV export
+Dashboard for logs and alerts
 
 Backend:
 
 Node.js
 Express.js
+Multer (file upload)
 In-memory log storage
-REST APIs for alerts and CSV export
+REST APIs for logs and alerts
 
 ## Core Requirements Implementation
 
 1. Log Ingestion
 
-Logs are read from logs.json
-Stored in memory on the backend for processing
+Logs are uploaded via REST API
+Raw log files are read and parsed line-by-line
+Logs are converted into structured objects
+Parsed logs are stored in memory and forwarded for further processing
 
 2. Search & Filter
 
-Supported filters:
+Supported filters (via query parameters):
 Log level (INFO / WARN / ERROR)
-Service name (auth / payment / order)
-Keyword search in message (e.g., timeout, db error)
-Filtering is performed on the backend and results are sent to the UI.
+Keyword search in message (e.g., timeout)
+Time range (from – to)
+Filtering is performed on the backend and results are returned to the frontend.
 
 3. Alert Rule Engine
 
-Implemented alert rules:
+A rule-based alert engine evaluates stored logs.
 
-Rule 1: High Error Rate
-Condition: ERROR count > X in last Y minutes
+Implemented rules:
+
+High Error Rate
+Condition: More than 5 ERROR logs in the last 5 minutes
 Severity: HIGH
-Reason: Excessive ERROR logs in a short time window
-
-Rule 2: Keyword Spike
-Condition: Keyword (e.g., timeout) appears more than N times in a time window
+Keyword Spike
+Condition: Keyword timeout appears more than 3 times
 Severity: LOW
-Reason: Suspicious repeated keyword occurrence
-Rules are hard-coded for simplicity.
+Each alert includes a clear reason and supporting statistics.
 
 4. Alert Output
 
-Alerts are returned via API and displayed in UI.
+Alerts are exposed via API
+Displayed in a React-based dashboard
+
 Each alert shows:
 Alert name
-Severity (LOW / HIGH)
+Severity
 Reason for firing
-Supporting statistics:
-Count
-Threshold
-Time window
-Keyword
+Supporting stats (count, time window, keyword)
 
 ## How to Run the Project
 
@@ -98,16 +100,16 @@ npm install
 
 node server.js
 
-Backend runs at: http://localhost:3000
+Backend runs at: http://localhost:5000 / http://localhost:6000
 
 ### Frontend:
 
 npm install
 
-npm start
+npm run dev
 
-Frontend runs at: http://localhost:3000 / http://localhost:5173 (depending on setup)
+Frontend runs at: http://localhost:5173
 
 ## Conclusion
 
-This project demonstrates a complete log monitoring and alerting workflow, covering ingestion, filtering, alert detection, explanation, and export functionality using modern web technologies.
+This project demonstrates a complete log monitoring and alerting workflow, including log ingestion, searching and filtering, rule-based alert detection, and alert visualization using modern web technologies.
