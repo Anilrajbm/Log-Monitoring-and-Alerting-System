@@ -1,1 +1,1 @@
-#Log ingestion
+Log ingestion
