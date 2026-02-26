@@ -1,6 +1,6 @@
 # Log ingestion
 
-## 📥 Module 1 — Log Ingestion
+##  Module 1 — Log Ingestion
 
 ### Purpose
 
