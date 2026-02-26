@@ -1,11 +1,11 @@
-# 🛡️ LogPulse – Smart Log Monitoring Dashboard
+#  LogPulse – Smart Log Monitoring Dashboard
 
 LogPulse is a lightweight log monitoring and alerting system built using Streamlit and Machine Learning.  
 It automatically classifies logs, detects error spikes, and visualizes system health in near real-time.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Intelligent log classification using TF-IDF + Logistic Regression
 - Automatic alert generation based on error thresholds
@@ -18,7 +18,7 @@ It automatically classifies logs, detects error spikes, and visualizes system he
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python 3.8+
 - Streamlit
@@ -29,7 +29,7 @@ It automatically classifies logs, detects error spikes, and visualizes system he
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 logpulse/
 │
@@ -43,13 +43,13 @@ logpulse/
 
 ---
 
-## ▶️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Install Dependencies
+### 1️ Install Dependencies
 
 pip install streamlit pandas scikit-learn matplotlib streamlit-autorefresh
 
-### 2️⃣ Run the Application
+### 2️ Run the Application
 
 streamlit run app.py
 
@@ -57,7 +57,7 @@ The dashboard will open automatically in your browser.
 
 ---
 
-## 📊 How It Works
+##  How It Works
 
 1. Logs are loaded from a JSON file.
 2. Machine Learning classifies each log message into predefined categories.
@@ -70,7 +70,7 @@ The dashboard will open automatically in your browser.
 
 ---
 
-## 💡 Use Cases
+##  Use Cases
 
 - Monitoring backend services
 - Detecting abnormal error spikes
