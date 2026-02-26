@@ -1,12 +1,12 @@
-## Log Monitoring & Alerting System
+# Log Monitoring & Alerting System
 
-# Introduction
+## Introduction
 
 Modern software systems generate large volumes of logs across multiple services.
 Engineers rely on log monitoring tools to search logs quickly and get alerted when abnormal behavior such as errors, spikes, or suspicious patterns occur.
 This project implements a lightweight log monitoring and alerting system using mock log data.
 
-# Objective
+## Objective
 
 Build a system that:
 Ingests application logs from a file
@@ -14,7 +14,7 @@ Allows searching and filtering of logs
 Detects abnormal patterns using alert rules
 Clearly explains why an alert was triggered
 
-# Input Data
+## Input Data
 
 Logs are provided in JSON format (logs.json).
 Each log entry contains:
@@ -26,13 +26,13 @@ Each log entry contains:
   "message": "DB connection timeout"
 }
 
-# Fields
+## Fields
 timestamp: ISO format / epoch time
 level: INFO / WARN / ERROR
 service: auth / payment / order
 message: log message text
 
-# Tech Stack
+## Tech Stack
 
 Frontend
 React.js
@@ -45,7 +45,7 @@ Express.js
 In-memory log storage
 REST APIs for alerts and CSV export
 
-# Core Requirements Implementation
+## Core Requirements Implementation
 
 1️. Log Ingestion
 Logs are read from logs.json
@@ -84,6 +84,7 @@ Threshold
 Time window
 Keyword
 
+
 5. Export Filtered Logs to CSV
 UI contains an Export CSV button
 Filtered logs are sent to backend
@@ -93,7 +94,7 @@ CSV file is downloaded by the user
 CSV Columns:
 timestamp, level, service, message
 
-# How to Run the Project
+## How to Run the Project
 
 Backend:
 npm install
@@ -107,13 +108,13 @@ npm start
 
 Frontend runs at: http://localhost:3000 / http://localhost:5173 (depending on setup)
 
-# Stretch Goals Implemented
+## Stretch Goals Implemented
 
 Alert severity levels (LOW / HIGH)
 Export filtered logs to CSV
 Error count over time chart (optional future enhancement)
 Periodic polling (can be added using setInterval)
 
-# Conclusion
+## Conclusion
 
 This project demonstrates a complete log monitoring and alerting workflow, covering ingestion, filtering, alert detection, explanation, and export functionality using modern web technologies.
