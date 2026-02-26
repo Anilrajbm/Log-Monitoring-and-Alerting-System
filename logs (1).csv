@@ -1,0 +1,499 @@
+time,level,message
+2026-02-19 19:06:36.430,ERROR,"10001 --- [nio-8080-exec-1] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetX"",""type"":""Stock""}"
+2026-02-19 19:06:39.430,ERROR,"10004 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=791"
+2026-02-19 19:06:44.430,ERROR,10009 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Received GET request for /api/v1/health631
+2026-02-19 19:06:46.430,ERROR,"10011 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Asset created successfully, assetId=1020"
+2026-02-19 19:06:54.430,ERROR,10019 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:06:56.430,ERROR,10021 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2832ms)
+2026-02-19 19:07:01.430,ERROR,10026 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=218
+2026-02-19 19:07:04.430,ERROR,"10029 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=150, reason=Asset in use"
+2026-02-19 19:07:17.430,ERROR,10042 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=1065
+2026-02-19 19:07:23.430,ERROR,"10048 --- [nio-8080-exec-19] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=595, reason=Asset in use"
+2026-02-19 19:07:38.430,ERROR,10063 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=298
+2026-02-19 19:07:39.430,ERROR,10064 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=1609ms)
+2026-02-19 19:07:54.430,ERROR,10079 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2614ms)
+2026-02-19 19:07:58.430,ERROR,"10083 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Asset created successfully, assetId=321"
+2026-02-19 19:07:59.430,ERROR,"10084 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=795, status=404"
+2026-02-19 19:08:02.430,ERROR,"10087 --- [nio-8080-exec-18] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetG"",""type"":""Stock""}"
+2026-02-19 19:08:03.430,ERROR,10088 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Deleting asset with assetId=378
+2026-02-19 19:08:06.430,ERROR,"10091 --- [nio-8080-exec-19] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetB"",""type"":""MutualFund""}"
+2026-02-19 19:08:07.430,ERROR,10092 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=1747ms)
+2026-02-19 19:08:08.430,ERROR,"10093 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Validation failed for accountId=575, reason=Invalid phone number"
+2026-02-19 19:08:09.430,ERROR,10094 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Asset not found for assetId=852
+2026-02-19 19:08:12.430,ERROR,"10097 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Failed to update account accountId=428, status=400"
+2026-02-19 19:08:13.430,ERROR,"10098 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Failed to update account accountId=320, status=400"
+2026-02-19 19:08:25.430,ERROR,"10110 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Failed to update account accountId=459, status=400"
+2026-02-19 19:08:28.430,ERROR,10113 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2328ms)
+2026-02-19 19:08:35.430,ERROR,"10120 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=1031, status=404"
+2026-02-19 19:08:40.430,ERROR,"10125 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Failed to return account details for accountId=838, status=404"
+2026-02-19 19:08:43.430,ERROR,"10128 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Failed to update account accountId=393, status=400"
+2026-02-19 19:08:45.430,ERROR,"10130 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Failed to update account accountId=966, status=400"
+2026-02-19 19:08:49.430,ERROR,"10134 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Validation failed for accountId=616, reason=Invalid phone number"
+2026-02-19 19:08:54.430,ERROR,10139 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:08:56.430,ERROR,10141 --- [nio-8080-exec-5] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:08:58.430,ERROR,10143 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Deleting asset with assetId=891
+2026-02-19 19:08:59.430,ERROR,10144 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Account not found for accountId=992
+2026-02-19 19:09:02.430,ERROR,10147 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Account not found for accountId=1078
+2026-02-19 19:09:04.430,ERROR,10149 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Health check OK
+2026-02-19 19:09:07.430,ERROR,"10152 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Failed to return account details for accountId=842, status=404"
+2026-02-19 19:09:10.430,ERROR,10155 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Account not found for accountId=743
+2026-02-19 19:09:13.430,ERROR,"10158 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Failed to update account accountId=592, status=400"
+2026-02-19 19:09:14.430,ERROR,10159 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Fetching account details for accountId=230
+2026-02-19 19:09:22.430,ERROR,"10167 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=946"
+2026-02-19 19:09:23.430,ERROR,10168 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Health check OK
+2026-02-19 19:09:25.430,ERROR,"10170 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=597, status=404"
+2026-02-19 19:09:36.430,ERROR,"10181 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Failed to return account details for accountId=850, status=404"
+2026-02-19 19:09:38.430,ERROR,"10183 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetX"",""type"":""Stock""}"
+2026-02-19 19:09:46.430,ERROR,10191 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=904
+2026-02-19 19:09:48.430,ERROR,"10193 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=1047, status=404"
+2026-02-19 19:09:52.430,ERROR,10197 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Account not found for accountId=375
+2026-02-19 19:09:53.430,ERROR,"10198 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=345, status=404"
+2026-02-19 19:09:55.430,ERROR,"10200 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Failed to return account details for accountId=836, status=404"
+2026-02-19 19:10:03.430,ERROR,"10208 --- [nio-8080-exec-13] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetI"",""type"":""MutualFund""}"
+2026-02-19 19:10:04.430,ERROR,"10209 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Asset created successfully, assetId=910"
+2026-02-19 19:10:08.430,ERROR,10213 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=868
+2026-02-19 19:10:11.430,ERROR,"10216 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Could not delete asset assetId=640, status=409"
+2026-02-19 19:10:12.430,ERROR,"10217 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetC"",""type"":""Bond""}"
+2026-02-19 19:10:24.430,ERROR,"10229 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetR"",""type"":""Bond""}"
+2026-02-19 19:10:25.430,ERROR,10230 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=295
+2026-02-19 19:10:36.430,ERROR,"10241 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Failed to update account accountId=603, status=400"
+2026-02-19 19:10:41.430,ERROR,10246 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Deleting asset with assetId=923
+2026-02-19 19:10:44.430,ERROR,10249 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Fetching asset details for assetId=149
+2026-02-19 19:10:51.430,ERROR,10256 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Account not found for accountId=604
+2026-02-19 19:10:58.430,ERROR,10263 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=1091
+2026-02-19 19:10:59.430,ERROR,"10264 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=505, status=404"
+2026-02-19 19:11:02.430,ERROR,10267 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=961
+2026-02-19 19:11:03.430,ERROR,10268 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Received PUT request for /api/v1/logout830
+2026-02-19 19:11:05.430,ERROR,10270 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Account not found for accountId=336
+2026-02-19 19:11:08.430,ERROR,10273 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Asset not found for assetId=153
+2026-02-19 19:11:09.430,ERROR,10274 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:11:13.430,ERROR,10278 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:11:22.430,ERROR,"10287 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Could not delete asset assetId=524, status=409"
+2026-02-19 19:11:38.430,ERROR,10303 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Account not found for accountId=1069
+2026-02-19 19:11:40.430,ERROR,10305 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Deleting asset with assetId=907
+2026-02-19 19:11:45.430,ERROR,"10310 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetC"",""type"":""MutualFund""}"
+2026-02-19 19:11:46.430,ERROR,10311 --- [nio-8080-exec-16] c.n.p.controller.MeshDataController      : Asset not found for assetId=1005
+2026-02-19 19:11:47.430,ERROR,"10312 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Failed to update account accountId=768, status=400"
+2026-02-19 19:11:48.430,ERROR,"10313 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Failed to update account accountId=602, status=400"
+2026-02-19 19:11:58.430,ERROR,10323 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=743
+2026-02-19 19:12:07.430,ERROR,10332 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:12:11.430,ERROR,"10336 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=446, status=404"
+2026-02-19 19:12:13.430,ERROR,"10338 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Asset created successfully, assetId=309"
+2026-02-19 19:12:17.430,ERROR,10342 --- [nio-8080-exec-1] c.n.p.service.MeshDataService      : Received PUT request for /api/v1/login274
+2026-02-19 19:12:23.430,ERROR,10348 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=1399ms)
+2026-02-19 19:12:31.430,ERROR,10356 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Health check OK
+2026-02-19 19:12:34.430,ERROR,10359 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Fetching account details for accountId=286
+2026-02-19 19:12:37.430,ERROR,10362 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Asset not found for assetId=452
+2026-02-19 19:12:39.430,ERROR,10364 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Account not found for accountId=794
+2026-02-19 19:12:41.430,ERROR,10366 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=491
+2026-02-19 19:12:42.430,ERROR,"10367 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=277, status=404"
+2026-02-19 19:12:45.430,ERROR,10370 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Received DELETE request for /api/v1/login1074
+2026-02-19 19:12:47.430,ERROR,"10372 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Could not delete asset assetId=362, status=409"
+2026-02-19 19:12:51.430,ERROR,10376 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2856ms)
+2026-02-19 19:13:00.430,ERROR,"10385 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Asset created successfully, assetId=236"
+2026-02-19 19:13:02.430,ERROR,10387 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=1073
+2026-02-19 19:13:08.430,ERROR,"10393 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Validation failed for accountId=287, reason=Invalid phone number"
+2026-02-19 19:13:12.430,ERROR,10397 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Deleting asset with assetId=810
+2026-02-19 19:13:13.430,ERROR,10398 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Asset not found for assetId=547
+2026-02-19 19:13:18.430,ERROR,10403 --- [nio-8080-exec-7] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=1443ms)
+2026-02-19 19:13:20.430,ERROR,"10405 --- [nio-8080-exec-5] c.n.p.service.MeshDataService      : Failed to update account accountId=659, status=400"
+2026-02-19 19:13:27.430,ERROR,10412 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Account not found for accountId=292
+2026-02-19 19:13:40.430,ERROR,"10425 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Failed to update account accountId=449, status=400"
+2026-02-19 19:13:43.430,ERROR,"10428 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Asset created successfully, assetId=873"
+2026-02-19 19:13:45.430,ERROR,10430 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Deleting asset with assetId=180
+2026-02-19 19:13:46.430,ERROR,10431 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Health check OK
+2026-02-19 19:13:52.430,ERROR,10437 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=429
+2026-02-19 19:14:14.430,ERROR,10459 --- [nio-8080-exec-13] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=1481ms)
+2026-02-19 19:14:21.430,ERROR,10466 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Asset not found for assetId=948
+2026-02-19 19:14:28.430,ERROR,10473 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Fetching account details for accountId=572
+2026-02-19 19:14:31.430,ERROR,"10476 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=406, status=404"
+2026-02-19 19:14:35.430,ERROR,10480 --- [nio-8080-exec-19] c.n.p.service.MeshDataService      : Fetching asset details for assetId=448
+2026-02-19 19:14:46.430,ERROR,10491 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=651
+2026-02-19 19:14:51.430,ERROR,10496 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2571ms)
+2026-02-19 19:14:52.430,ERROR,10497 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Received POST request for /api/v1/logout297
+2026-02-19 19:14:55.430,ERROR,10500 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=760
+2026-02-19 19:14:56.430,ERROR,10501 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=925
+2026-02-19 19:14:59.430,ERROR,"10504 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Failed to update account accountId=230, status=400"
+2026-02-19 19:15:00.430,ERROR,"10505 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Failed to update account accountId=576, status=400"
+2026-02-19 19:15:05.430,ERROR,"10510 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Asset created successfully, assetId=550"
+2026-02-19 19:15:07.430,ERROR,"10512 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Asset created successfully, assetId=725"
+2026-02-19 19:15:09.430,ERROR,"10514 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetC"",""type"":""Bond""}"
+2026-02-19 19:15:15.430,ERROR,10520 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Asset not found for assetId=170
+2026-02-19 19:15:19.430,ERROR,10524 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Asset not found for assetId=672
+2026-02-19 19:15:21.430,ERROR,10526 --- [nio-8080-exec-2] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=726
+2026-02-19 19:15:24.430,ERROR,"10529 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=659"
+2026-02-19 19:15:27.430,ERROR,10532 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Deleting asset with assetId=457
+2026-02-19 19:15:29.430,ERROR,10534 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:15:34.430,ERROR,10539 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=853
+2026-02-19 19:15:43.430,ERROR,10548 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=292
+2026-02-19 19:15:51.430,ERROR,10556 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Deleting asset with assetId=945
+2026-02-19 19:15:56.430,ERROR,"10561 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=907, status=404"
+2026-02-19 19:15:59.430,ERROR,"10564 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=313, status=404"
+2026-02-19 19:16:04.430,ERROR,10569 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Received PUT request for /api/v1/logout978
+2026-02-19 19:16:05.430,ERROR,10570 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=1244ms)
+2026-02-19 19:16:16.430,ERROR,"10581 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetS"",""type"":""MutualFund""}"
+2026-02-19 19:16:17.430,ERROR,10582 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2162ms)
+2026-02-19 19:16:20.430,ERROR,10585 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Received DELETE request for /api/v1/assets/426
+2026-02-19 19:16:31.430,ERROR,10596 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Deleting asset with assetId=843
+2026-02-19 19:16:32.430,ERROR,10597 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Received POST request for /api/v1/logout783
+2026-02-19 19:16:36.430,ERROR,10601 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2482ms)
+2026-02-19 19:16:38.430,ERROR,10603 --- [nio-8080-exec-13] c.n.p.service.MeshDataService      : Fetching account details for accountId=329
+2026-02-19 19:16:41.430,ERROR,"10606 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Could not delete asset assetId=575, status=409"
+2026-02-19 19:16:44.430,ERROR,10609 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Received PUT request for /api/v1/login701
+2026-02-19 19:16:45.430,ERROR,10610 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Account not found for accountId=594
+2026-02-19 19:16:48.430,ERROR,"10613 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=429"
+2026-02-19 19:16:50.430,ERROR,"10615 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetY"",""type"":""Stock""}"
+2026-02-19 19:17:01.430,ERROR,10626 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=588
+2026-02-19 19:17:03.430,ERROR,"10628 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Failed to update account accountId=782, status=400"
+2026-02-19 19:17:12.430,ERROR,10637 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2398ms)
+2026-02-19 19:17:16.430,ERROR,"10641 --- [nio-8080-exec-16] c.n.p.controller.MeshDataController      : Could not delete asset assetId=393, status=409"
+2026-02-19 19:17:18.430,ERROR,"10643 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=845, status=404"
+2026-02-19 19:17:28.430,ERROR,"10653 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Validation failed for accountId=952, reason=Invalid phone number"
+2026-02-19 19:17:30.430,ERROR,10655 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Fetching account details for accountId=426
+2026-02-19 19:17:33.430,ERROR,10658 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=462
+2026-02-19 19:17:36.430,ERROR,10661 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=421
+2026-02-19 19:17:38.430,ERROR,10663 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=1088
+2026-02-19 19:17:39.430,ERROR,"10664 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=159, reason=Asset in use"
+2026-02-19 19:17:51.430,ERROR,"10676 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Failed to update account accountId=1054, status=400"
+2026-02-19 19:17:56.430,ERROR,10681 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Fetching account details for accountId=181
+2026-02-19 19:17:58.430,ERROR,10683 --- [nio-8080-exec-7] c.n.p.controller.MeshDataController      : Received PUT request for /api/v1/login766
+2026-02-19 19:18:02.430,ERROR,"10687 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Could not delete asset assetId=276, status=409"
+2026-02-19 19:18:04.430,ERROR,10689 --- [nio-8080-exec-13] c.n.p.service.MeshDataService      : Account not found for accountId=857
+2026-02-19 19:18:06.430,ERROR,10691 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Fetching account details for accountId=274
+2026-02-19 19:18:08.430,ERROR,"10693 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Failed to return account details for accountId=1070, status=404"
+2026-02-19 19:18:12.430,ERROR,"10697 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Validation failed for accountId=281, reason=Invalid phone number"
+2026-02-19 19:18:15.430,ERROR,"10700 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=190, reason=Asset in use"
+2026-02-19 19:18:16.430,ERROR,10701 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Deleting asset with assetId=1087
+2026-02-19 19:18:20.430,ERROR,10705 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=1045
+2026-02-19 19:18:22.430,ERROR,10707 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Account not found for accountId=257
+2026-02-19 19:18:23.430,ERROR,10708 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Fetching asset details for assetId=709
+2026-02-19 19:18:26.430,ERROR,10711 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=870
+2026-02-19 19:18:30.430,ERROR,10715 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2113ms)
+2026-02-19 19:18:31.430,ERROR,10716 --- [nio-8080-exec-5] c.n.p.service.MeshDataService      : Fetching account details for accountId=198
+2026-02-19 19:18:34.430,ERROR,"10719 --- [nio-8080-exec-7] c.n.p.controller.MeshDataController      : Validation failed for accountId=140, reason=Invalid phone number"
+2026-02-19 19:18:38.430,ERROR,10723 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Received GET request for /api/v1/login917
+2026-02-19 19:18:40.430,ERROR,10725 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Received POST request for /api/v1/logout724
+2026-02-19 19:18:41.430,ERROR,10726 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2320ms)
+2026-02-19 19:18:45.430,ERROR,10730 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Account not found for accountId=626
+2026-02-19 19:18:51.430,ERROR,10736 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Deleting asset with assetId=490
+2026-02-19 19:18:52.430,ERROR,"10737 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=995, reason=Asset in use"
+2026-02-19 19:18:54.430,ERROR,"10739 --- [nio-8080-exec-5] c.n.p.service.MeshDataService      : Failed to update account accountId=981, status=400"
+2026-02-19 19:18:55.430,ERROR,"10740 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetT"",""type"":""Bond""}"
+2026-02-19 19:18:57.430,ERROR,10742 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Received GET request for /api/v1/accounts/309
+2026-02-19 19:19:01.430,ERROR,10746 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Deleting asset with assetId=843
+2026-02-19 19:19:05.430,ERROR,"10750 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=994"
+2026-02-19 19:19:06.430,ERROR,"10751 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Validation failed for accountId=278, reason=Invalid phone number"
+2026-02-19 19:19:10.430,ERROR,10755 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2964ms)
+2026-02-19 19:19:14.430,ERROR,"10759 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=935"
+2026-02-19 19:19:16.430,ERROR,"10761 --- [nio-8080-exec-1] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=359, status=404"
+2026-02-19 19:19:21.430,ERROR,10766 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Deleting asset with assetId=352
+2026-02-19 19:19:23.430,ERROR,"10768 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=359"
+2026-02-19 19:19:24.430,ERROR,10769 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Account not found for accountId=221
+2026-02-19 19:19:28.430,ERROR,"10773 --- [nio-8080-exec-2] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=761, status=404"
+2026-02-19 19:19:30.430,ERROR,10775 --- [nio-8080-exec-6] c.n.p.controller.MeshDataController      : Received PUT request for /api/v1/assets/638
+2026-02-19 19:19:44.430,ERROR,10789 --- [nio-8080-exec-19] c.n.p.service.MeshDataService      : Fetching asset details for assetId=818
+2026-02-19 19:19:53.430,ERROR,10798 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=426
+2026-02-19 19:19:54.430,ERROR,"10799 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetM"",""type"":""Bond""}"
+2026-02-19 19:20:10.430,ERROR,10815 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2569ms)
+2026-02-19 19:20:17.430,ERROR,"10822 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=581, reason=Asset in use"
+2026-02-19 19:20:21.430,ERROR,"10826 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Failed to return account details for accountId=526, status=404"
+2026-02-19 19:20:23.430,ERROR,"10828 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetR"",""type"":""Bond""}"
+2026-02-19 19:20:24.430,ERROR,10829 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Account not found for accountId=366
+2026-02-19 19:20:26.430,ERROR,10831 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Asset not found for assetId=986
+2026-02-19 19:20:29.430,ERROR,"10834 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=282, status=404"
+2026-02-19 19:20:32.430,ERROR,"10837 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Could not delete asset assetId=298, status=409"
+2026-02-19 19:20:34.430,ERROR,10839 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Received PUT request for /api/v1/assets/435
+2026-02-19 19:20:41.430,ERROR,10846 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Received POST request for /api/v1/login998
+2026-02-19 19:20:45.430,ERROR,10850 --- [nio-8080-exec-2] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=875
+2026-02-19 19:20:49.430,ERROR,"10854 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Validation failed for accountId=182, reason=Invalid phone number"
+2026-02-19 19:20:53.430,ERROR,10858 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2029ms)
+2026-02-19 19:20:57.430,ERROR,10862 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Deleting asset with assetId=992
+2026-02-19 19:21:04.430,ERROR,10869 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=1089
+2026-02-19 19:21:06.430,ERROR,"10871 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=586, status=404"
+2026-02-19 19:21:13.430,ERROR,"10878 --- [nio-8080-exec-13] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=1021, reason=Asset in use"
+2026-02-19 19:21:14.430,ERROR,10879 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=442
+2026-02-19 19:21:19.430,ERROR,10884 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=1009
+2026-02-19 19:21:26.430,ERROR,"10891 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=793, reason=Asset in use"
+2026-02-19 19:21:27.430,ERROR,"10892 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetG"",""type"":""Bond""}"
+2026-02-19 19:21:29.430,ERROR,10894 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Deleting asset with assetId=276
+2026-02-19 19:21:35.430,ERROR,10900 --- [nio-8080-exec-18] c.n.p.service.MeshDataService      : Asset not found for assetId=928
+2026-02-19 19:21:39.430,ERROR,10904 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:21:40.430,ERROR,"10905 --- [nio-8080-exec-6] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=476, status=404"
+2026-02-19 19:21:44.430,ERROR,"10909 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetE"",""type"":""Bond""}"
+2026-02-19 19:21:50.430,ERROR,10915 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=756
+2026-02-19 19:22:02.430,ERROR,10927 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=340
+2026-02-19 19:22:08.430,ERROR,10933 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=694
+2026-02-19 19:22:15.430,ERROR,"10940 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=165"
+2026-02-19 19:22:22.430,ERROR,"10947 --- [nio-8080-exec-18] c.n.p.service.MeshDataService      : Validation failed for accountId=166, reason=Invalid phone number"
+2026-02-19 19:22:24.430,ERROR,10949 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Asset not found for assetId=848
+2026-02-19 19:22:29.430,ERROR,"10954 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetA"",""type"":""Bond""}"
+2026-02-19 19:22:34.430,ERROR,"10959 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Validation failed for accountId=440, reason=Invalid phone number"
+2026-02-19 19:22:35.430,ERROR,10960 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Account not found for accountId=235
+2026-02-19 19:22:36.430,ERROR,10961 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Account not found for accountId=107
+2026-02-19 19:22:37.430,ERROR,"10962 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Failed to update account accountId=214, status=400"
+2026-02-19 19:22:47.430,ERROR,10972 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Received GET request for /api/v1/assets/641
+2026-02-19 19:22:48.430,ERROR,10973 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=678
+2026-02-19 19:22:50.430,ERROR,"10975 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=828, status=404"
+2026-02-19 19:22:51.430,ERROR,"10976 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Asset created successfully, assetId=389"
+2026-02-19 19:23:02.430,ERROR,"10987 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=862, status=404"
+2026-02-19 19:23:03.430,ERROR,10988 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=280
+2026-02-19 19:23:07.430,ERROR,10992 --- [nio-8080-exec-6] c.n.p.controller.MeshDataController      : Fetching account details for accountId=860
+2026-02-19 19:23:11.430,ERROR,10996 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Received PUT request for /api/v1/logout336
+2026-02-19 19:23:13.430,ERROR,10998 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Received GET request for /api/v1/accounts/935
+2026-02-19 19:23:20.430,ERROR,11005 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=910
+2026-02-19 19:23:21.430,ERROR,"11006 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Asset created successfully, assetId=845"
+2026-02-19 19:23:23.430,ERROR,"11008 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=1021, status=404"
+2026-02-19 19:23:29.430,ERROR,11014 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:23:33.430,ERROR,11018 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2544ms)
+2026-02-19 19:23:40.430,ERROR,11025 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Account not found for accountId=447
+2026-02-19 19:23:42.430,ERROR,11027 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Received DELETE request for /api/v1/health385
+2026-02-19 19:23:52.430,ERROR,11037 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Health check OK
+2026-02-19 19:23:53.430,ERROR,11038 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=774
+2026-02-19 19:23:54.430,ERROR,11039 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Asset not found for assetId=262
+2026-02-19 19:23:55.430,ERROR,11040 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=1372ms)
+2026-02-19 19:23:56.430,ERROR,11041 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Fetching asset details for assetId=935
+2026-02-19 19:24:01.430,ERROR,11046 --- [nio-8080-exec-7] c.n.p.controller.MeshDataController      : Asset not found for assetId=150
+2026-02-19 19:24:12.430,ERROR,"11057 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Could not delete asset assetId=191, status=409"
+2026-02-19 19:24:13.430,ERROR,"11058 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Could not delete asset assetId=924, status=409"
+2026-02-19 19:24:14.430,ERROR,11059 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=456
+2026-02-19 19:24:17.430,ERROR,"11062 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Validation failed for accountId=661, reason=Invalid phone number"
+2026-02-19 19:24:20.430,ERROR,11065 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Asset not found for assetId=549
+2026-02-19 19:24:25.430,ERROR,11070 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Received POST request for /api/v1/accounts/715
+2026-02-19 19:24:27.430,ERROR,"11072 --- [nio-8080-exec-7] c.n.p.controller.MeshDataController      : Could not delete asset assetId=672, status=409"
+2026-02-19 19:24:32.430,ERROR,11077 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Asset not found for assetId=311
+2026-02-19 19:24:40.430,ERROR,11085 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Account not found for accountId=777
+2026-02-19 19:24:47.430,ERROR,"11092 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Could not delete asset assetId=246, status=409"
+2026-02-19 19:24:50.430,ERROR,"11095 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Failed to update account accountId=388, status=400"
+2026-02-19 19:24:51.430,ERROR,"11096 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Could not delete asset assetId=905, status=409"
+2026-02-19 19:24:54.430,ERROR,"11099 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetI"",""type"":""MutualFund""}"
+2026-02-19 19:24:58.430,ERROR,11103 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=140
+2026-02-19 19:25:00.430,ERROR,"11105 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Could not delete asset assetId=415, status=409"
+2026-02-19 19:25:04.430,ERROR,"11109 --- [nio-8080-exec-2] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=561, reason=Asset in use"
+2026-02-19 19:25:07.430,ERROR,"11112 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetU"",""type"":""ETF""}"
+2026-02-19 19:25:19.430,ERROR,11124 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Deleting asset with assetId=699
+2026-02-19 19:25:20.430,ERROR,"11125 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Asset created successfully, assetId=654"
+2026-02-19 19:25:34.430,ERROR,11139 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=950
+2026-02-19 19:25:35.430,ERROR,"11140 --- [nio-8080-exec-1] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetX"",""type"":""Bond""}"
+2026-02-19 19:25:39.430,ERROR,11144 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Received POST request for /api/v1/login1087
+2026-02-19 19:25:46.430,ERROR,"11151 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Failed to update account accountId=146, status=400"
+2026-02-19 19:25:48.430,ERROR,11153 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Asset not found for assetId=977
+2026-02-19 19:25:55.430,ERROR,"11160 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=561, status=404"
+2026-02-19 19:25:56.430,ERROR,"11161 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Failed to update account accountId=753, status=400"
+2026-02-19 19:25:57.430,ERROR,"11162 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Failed to update account accountId=147, status=400"
+2026-02-19 19:26:00.430,ERROR,11165 --- [nio-8080-exec-6] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=427
+2026-02-19 19:26:04.430,ERROR,"11169 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=286, reason=Asset in use"
+2026-02-19 19:26:05.430,ERROR,"11170 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=639"
+2026-02-19 19:26:15.430,ERROR,11180 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Fetching asset details for assetId=1024
+2026-02-19 19:26:16.430,ERROR,"11181 --- [nio-8080-exec-5] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetD"",""type"":""MutualFund""}"
+2026-02-19 19:26:20.430,ERROR,11185 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=1019
+2026-02-19 19:26:24.430,ERROR,"11189 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=293, reason=Asset in use"
+2026-02-19 19:26:34.430,ERROR,"11199 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetN"",""type"":""Stock""}"
+2026-02-19 19:26:48.430,ERROR,11213 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2100ms)
+2026-02-19 19:26:53.430,ERROR,11218 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Fetching account details for accountId=234
+2026-02-19 19:26:57.430,ERROR,"11222 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=642"
+2026-02-19 19:27:01.430,ERROR,"11226 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Failed to return account details for accountId=842, status=404"
+2026-02-19 19:27:04.430,ERROR,11229 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:27:08.430,ERROR,11233 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2210ms)
+2026-02-19 19:27:11.430,ERROR,11236 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:27:24.430,ERROR,11249 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=859
+2026-02-19 19:27:29.430,ERROR,11254 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Asset not found for assetId=883
+2026-02-19 19:27:31.430,ERROR,11256 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=132
+2026-02-19 19:27:32.430,ERROR,"11257 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Validation failed for accountId=539, reason=Invalid phone number"
+2026-02-19 19:27:37.430,ERROR,"11262 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetO"",""type"":""ETF""}"
+2026-02-19 19:27:40.430,ERROR,11265 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Received GET request for /api/v1/logout774
+2026-02-19 19:27:46.430,ERROR,"11271 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Asset created successfully, assetId=361"
+2026-02-19 19:27:53.430,ERROR,11278 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=991
+2026-02-19 19:28:00.430,ERROR,11285 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Fetching account details for accountId=241
+2026-02-19 19:28:11.430,ERROR,"11296 --- [nio-8080-exec-6] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=960, reason=Asset in use"
+2026-02-19 19:28:13.430,ERROR,"11298 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetR"",""type"":""ETF""}"
+2026-02-19 19:28:17.430,ERROR,"11302 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=811, reason=Asset in use"
+2026-02-19 19:28:18.430,ERROR,11303 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Account not found for accountId=218
+2026-02-19 19:28:27.430,ERROR,"11312 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Validation failed for accountId=379, reason=Invalid phone number"
+2026-02-19 19:28:30.430,ERROR,"11315 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=601, reason=Asset in use"
+2026-02-19 19:28:32.430,ERROR,11317 --- [nio-8080-exec-6] c.n.p.controller.MeshDataController      : Deleting asset with assetId=905
+2026-02-19 19:28:35.430,ERROR,"11320 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Could not delete asset assetId=708, status=409"
+2026-02-19 19:28:36.430,ERROR,11321 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Asset not found for assetId=115
+2026-02-19 19:28:41.430,ERROR,11326 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Account not found for accountId=865
+2026-02-19 19:28:44.430,ERROR,"11329 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=1087"
+2026-02-19 19:28:45.430,ERROR,11330 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Asset not found for assetId=708
+2026-02-19 19:28:47.430,ERROR,11332 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:28:48.430,ERROR,"11333 --- [nio-8080-exec-16] c.n.p.controller.MeshDataController      : Could not delete asset assetId=293, status=409"
+2026-02-19 19:28:50.430,ERROR,11335 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Asset not found for assetId=219
+2026-02-19 19:28:58.430,ERROR,"11343 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Failed to return account details for accountId=563, status=404"
+2026-02-19 19:28:59.430,ERROR,11344 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Account not found for accountId=925
+2026-02-19 19:29:01.430,ERROR,11346 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Asset not found for assetId=381
+2026-02-19 19:29:02.430,ERROR,"11347 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=487, status=404"
+2026-02-19 19:29:03.430,ERROR,"11348 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=596, status=404"
+2026-02-19 19:29:07.430,ERROR,"11352 --- [nio-8080-exec-19] c.n.p.service.MeshDataService      : Asset created successfully, assetId=681"
+2026-02-19 19:29:09.430,ERROR,11354 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Fetching account details for accountId=153
+2026-02-19 19:29:10.430,ERROR,"11355 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Failed to return account details for accountId=358, status=404"
+2026-02-19 19:29:11.430,ERROR,11356 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Received PUT request for /api/v1/assets/634
+2026-02-19 19:29:15.430,ERROR,11360 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Deleting asset with assetId=850
+2026-02-19 19:29:20.430,ERROR,"11365 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetW"",""type"":""Stock""}"
+2026-02-19 19:29:26.430,ERROR,11371 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Fetching account details for accountId=728
+2026-02-19 19:29:27.430,ERROR,11372 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Received GET request for /api/v1/assets/647
+2026-02-19 19:29:28.430,ERROR,11373 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=730
+2026-02-19 19:29:31.430,ERROR,11376 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=352
+2026-02-19 19:29:38.430,ERROR,"11383 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Failed to return account details for accountId=1086, status=404"
+2026-02-19 19:29:48.430,ERROR,"11393 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Could not delete asset assetId=118, status=409"
+2026-02-19 19:29:50.430,ERROR,"11395 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=859, status=404"
+2026-02-19 19:29:51.430,ERROR,11396 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=1228ms)
+2026-02-19 19:29:56.430,ERROR,"11401 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Failed to update account accountId=478, status=400"
+2026-02-19 19:29:58.430,ERROR,"11403 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Failed to update account accountId=160, status=400"
+2026-02-19 19:30:00.430,ERROR,11405 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Received GET request for /api/v1/logout417
+2026-02-19 19:30:02.430,ERROR,11407 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=231
+2026-02-19 19:30:07.430,ERROR,"11412 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=867, reason=Asset in use"
+2026-02-19 19:30:09.430,ERROR,"11414 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Validation failed for accountId=833, reason=Invalid phone number"
+2026-02-19 19:30:11.430,ERROR,11416 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Fetching asset details for assetId=345
+2026-02-19 19:30:14.430,ERROR,"11419 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Asset created successfully, assetId=821"
+2026-02-19 19:30:15.430,ERROR,11420 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Deleting asset with assetId=533
+2026-02-19 19:30:17.430,ERROR,"11422 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Could not delete asset assetId=344, status=409"
+2026-02-19 19:30:21.430,ERROR,11426 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Deleting asset with assetId=236
+2026-02-19 19:30:26.430,ERROR,"11431 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=551, status=404"
+2026-02-19 19:30:31.430,ERROR,"11436 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=877, reason=Asset in use"
+2026-02-19 19:30:32.430,ERROR,11437 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Account not found for accountId=101
+2026-02-19 19:30:34.430,ERROR,"11439 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Failed to return account details for accountId=162, status=404"
+2026-02-19 19:30:43.430,ERROR,"11448 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=1060, reason=Asset in use"
+2026-02-19 19:30:46.430,ERROR,"11451 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=802"
+2026-02-19 19:30:49.430,ERROR,"11454 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=538, reason=Asset in use"
+2026-02-19 19:30:53.430,ERROR,11458 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=399
+2026-02-19 19:30:54.430,ERROR,11459 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Fetching account details for accountId=932
+2026-02-19 19:30:55.430,ERROR,"11460 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Asset created successfully, assetId=704"
+2026-02-19 19:31:05.430,ERROR,"11470 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=743, reason=Asset in use"
+2026-02-19 19:31:06.430,ERROR,11471 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Received POST request for /api/v1/login482
+2026-02-19 19:31:07.430,ERROR,"11472 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Could not delete asset assetId=140, status=409"
+2026-02-19 19:31:08.430,ERROR,"11473 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Failed to return account details for accountId=622, status=404"
+2026-02-19 19:31:15.430,ERROR,"11480 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetY"",""type"":""MutualFund""}"
+2026-02-19 19:31:17.430,ERROR,"11482 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=515, status=404"
+2026-02-19 19:31:18.430,ERROR,"11483 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Failed to return account details for accountId=1011, status=404"
+2026-02-19 19:31:21.430,ERROR,11486 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=694
+2026-02-19 19:31:24.430,ERROR,"11489 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Could not delete asset assetId=220, status=409"
+2026-02-19 19:31:28.430,ERROR,"11493 --- [nio-8080-exec-5] c.n.p.service.MeshDataService      : Validation failed for accountId=184, reason=Invalid phone number"
+2026-02-19 19:31:29.430,ERROR,11494 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Received POST request for /api/v1/accounts/126
+2026-02-19 19:31:31.430,ERROR,11496 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Fetching account details for accountId=720
+2026-02-19 19:31:32.430,ERROR,"11497 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=566, reason=Asset in use"
+2026-02-19 19:31:34.430,ERROR,11499 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Asset not found for assetId=1035
+2026-02-19 19:31:43.430,ERROR,"11508 --- [nio-8080-exec-19] c.n.p.service.MeshDataService      : Could not delete asset assetId=496, status=409"
+2026-02-19 19:31:50.430,ERROR,11515 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Received PUT request for /api/v1/health389
+2026-02-19 19:31:52.430,ERROR,11517 --- [nio-8080-exec-18] c.n.p.service.MeshDataService      : Fetching account details for accountId=513
+2026-02-19 19:31:55.430,ERROR,11520 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=528
+2026-02-19 19:32:01.430,ERROR,11526 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Received POST request for /api/v1/health412
+2026-02-19 19:32:09.430,ERROR,11534 --- [nio-8080-exec-20] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=107
+2026-02-19 19:32:15.430,ERROR,11540 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Deleting asset with assetId=127
+2026-02-19 19:32:17.430,ERROR,11542 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2702ms)
+2026-02-19 19:32:18.430,ERROR,11543 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:32:24.430,ERROR,11549 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=244
+2026-02-19 19:32:26.430,ERROR,"11551 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Failed to return account details for accountId=239, status=404"
+2026-02-19 19:32:27.430,ERROR,11552 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Received PUT request for /api/v1/assets/615
+2026-02-19 19:32:29.430,ERROR,"11554 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=429, status=404"
+2026-02-19 19:32:32.430,ERROR,"11557 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=929, status=404"
+2026-02-19 19:32:39.430,ERROR,11564 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Account not found for accountId=817
+2026-02-19 19:32:40.430,ERROR,11565 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Deleting asset with assetId=581
+2026-02-19 19:32:44.430,ERROR,11569 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Fetching account details for accountId=483
+2026-02-19 19:32:46.430,ERROR,11571 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Deleting asset with assetId=1084
+2026-02-19 19:32:52.430,ERROR,11577 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=563
+2026-02-19 19:33:00.430,ERROR,"11585 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Validation failed for accountId=198, reason=Invalid phone number"
+2026-02-19 19:33:01.430,ERROR,"11586 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=112, status=404"
+2026-02-19 19:33:03.430,ERROR,11588 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Fetching account details for accountId=167
+2026-02-19 19:33:18.430,ERROR,"11603 --- [nio-8080-exec-7] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=905"
+2026-02-19 19:33:19.430,ERROR,"11604 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Failed to return account details for accountId=394, status=404"
+2026-02-19 19:33:22.430,ERROR,11607 --- [nio-8080-exec-16] c.n.p.controller.MeshDataController      : Asset not found for assetId=647
+2026-02-19 19:33:28.430,ERROR,"11613 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=899, status=404"
+2026-02-19 19:33:32.430,ERROR,11617 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=352
+2026-02-19 19:33:33.430,ERROR,11618 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Account not found for accountId=269
+2026-02-19 19:33:37.430,ERROR,11622 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=1066
+2026-02-19 19:33:40.430,ERROR,11625 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Fetching account details for accountId=611
+2026-02-19 19:33:41.430,ERROR,11626 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2086ms)
+2026-02-19 19:33:42.430,ERROR,"11627 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Failed to update account accountId=518, status=400"
+2026-02-19 19:33:43.430,ERROR,"11628 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Could not delete asset assetId=647, status=409"
+2026-02-19 19:33:50.430,ERROR,11635 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Health check OK
+2026-02-19 19:33:53.430,ERROR,11638 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Account not found for accountId=505
+2026-02-19 19:33:55.430,ERROR,"11640 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Failed to update account accountId=492, status=400"
+2026-02-19 19:33:57.430,ERROR,11642 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2824ms)
+2026-02-19 19:34:01.430,ERROR,"11646 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=687"
+2026-02-19 19:34:15.430,ERROR,"11660 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Failed to return account details for accountId=856, status=404"
+2026-02-19 19:34:16.430,ERROR,"11661 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Creating asset with payload={""name"":""AssetAssetO"",""type"":""Stock""}"
+2026-02-19 19:34:21.430,ERROR,"11666 --- [nio-8080-exec-3] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=717"
+2026-02-19 19:34:22.430,ERROR,"11667 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=997, status=404"
+2026-02-19 19:34:24.430,ERROR,"11669 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=330, status=404"
+2026-02-19 19:34:36.430,ERROR,11681 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Fetching account details for accountId=749
+2026-02-19 19:34:44.430,ERROR,11689 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Account not found for accountId=821
+2026-02-19 19:34:48.430,ERROR,11693 --- [nio-8080-exec-5] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2925ms)
+2026-02-19 19:34:54.430,ERROR,"11699 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Validation failed for accountId=536, reason=Invalid phone number"
+2026-02-19 19:34:56.430,ERROR,11701 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=304
+2026-02-19 19:35:06.430,ERROR,"11711 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=218, status=404"
+2026-02-19 19:35:10.430,ERROR,"11715 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=233"
+2026-02-19 19:35:14.430,ERROR,11719 --- [nio-8080-exec-20] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=563
+2026-02-19 19:35:18.430,ERROR,"11723 --- [nio-8080-exec-16] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=327"
+2026-02-19 19:35:23.430,ERROR,11728 --- [nio-8080-exec-6] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=973
+2026-02-19 19:35:29.430,ERROR,11734 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Successfully returned account details for accountId=775
+2026-02-19 19:35:33.430,ERROR,11738 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=994
+2026-02-19 19:35:39.430,ERROR,11744 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=619
+2026-02-19 19:35:42.430,ERROR,"11747 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Validation failed for accountId=1010, reason=Invalid phone number"
+2026-02-19 19:35:46.430,ERROR,11751 --- [nio-8080-exec-19] c.n.p.service.MeshDataService      : Fetching account details for accountId=865
+2026-02-19 19:35:51.430,ERROR,"11756 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=167, status=404"
+2026-02-19 19:36:00.430,ERROR,11765 --- [nio-8080-exec-18] c.n.p.service.MeshDataService      : Successfully returned account details for accountId=408
+2026-02-19 19:36:02.430,ERROR,"11767 --- [nio-8080-exec-4] c.n.p.service.MeshDataService      : Validation failed for accountId=149, reason=Invalid phone number"
+2026-02-19 19:36:04.430,ERROR,11769 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Health check OK
+2026-02-19 19:36:10.430,ERROR,"11775 --- [nio-8080-exec-1] c.n.p.service.MeshDataService      : Could not delete asset assetId=170, status=409"
+2026-02-19 19:36:11.430,ERROR,"11776 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=540"
+2026-02-19 19:36:16.430,ERROR,11781 --- [nio-8080-exec-19] c.n.p.service.MeshDataService      : Deleting asset with assetId=932
+2026-02-19 19:36:18.430,ERROR,11783 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=331
+2026-02-19 19:36:22.430,ERROR,11787 --- [nio-8080-exec-10] c.n.p.service.MeshDataService      : Deleting asset with assetId=124
+2026-02-19 19:36:23.430,ERROR,"11788 --- [nio-8080-exec-15] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=780, status=404"
+2026-02-19 19:36:24.430,ERROR,"11789 --- [nio-8080-exec-14] c.n.p.service.MeshDataService      : Failed to update account accountId=784, status=400"
+2026-02-19 19:36:25.430,ERROR,"11790 --- [nio-8080-exec-16] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=252"
+2026-02-19 19:36:35.430,ERROR,"11800 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Failed to delete asset, assetId=525, reason=Asset in use"
+2026-02-19 19:36:43.430,ERROR,"11808 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Could not delete asset assetId=1050, status=409"
+2026-02-19 19:36:46.430,ERROR,"11811 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Failed to return account details for accountId=165, status=404"
+2026-02-19 19:36:55.430,ERROR,"11820 --- [nio-8080-exec-2] c.n.p.controller.MeshDataController      : Failed to return asset details for assetId=968, status=404"
+2026-02-19 19:36:57.430,ERROR,11822 --- [nio-8080-exec-4] c.n.p.controller.MeshDataController      : Fetching account details for accountId=231
+2026-02-19 19:37:04.430,ERROR,11829 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=768
+2026-02-19 19:37:07.430,ERROR,11832 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Deleting asset with assetId=504
+2026-02-19 19:37:11.430,ERROR,"11836 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Failed to update account accountId=819, status=400"
+2026-02-19 19:37:20.430,ERROR,11845 --- [nio-8080-exec-19] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=366
+2026-02-19 19:37:27.430,ERROR,"11852 --- [nio-8080-exec-13] c.n.p.service.MeshDataService      : Failed to return account details for accountId=254, status=404"
+2026-02-19 19:37:30.430,ERROR,11855 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Fetching account details for accountId=226
+2026-02-19 19:37:33.430,ERROR,11858 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=1174ms)
+2026-02-19 19:37:40.430,ERROR,11865 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Fetching account details for accountId=1057
+2026-02-19 19:37:46.430,ERROR,"11871 --- [nio-8080-exec-13] c.n.p.controller.MeshDataController      : Asset created successfully, assetId=810"
+2026-02-19 19:37:51.430,ERROR,11876 --- [nio-8080-exec-19] c.n.p.controller.MeshDataController      : Account not found for accountId=499
+2026-02-19 19:37:52.430,ERROR,11877 --- [nio-8080-exec-14] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=483
+2026-02-19 19:37:55.430,ERROR,11880 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Deleting asset with assetId=885
+2026-02-19 19:37:59.430,ERROR,"11884 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=151, status=404"
+2026-02-19 19:38:00.430,ERROR,"11885 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=434, status=404"
+2026-02-19 19:38:01.430,ERROR,11886 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2425ms)
+2026-02-19 19:38:04.430,ERROR,"11889 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Could not delete asset assetId=497, status=409"
+2026-02-19 19:38:06.430,ERROR,11891 --- [nio-8080-exec-3] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=2254ms)
+2026-02-19 19:38:20.430,ERROR,11905 --- [nio-8080-exec-7] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=1493ms)
+2026-02-19 19:38:26.430,ERROR,11911 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Received PUT request for /api/v1/logout706
+2026-02-19 19:38:27.430,ERROR,11912 --- [nio-8080-exec-17] c.n.p.service.MeshDataService      : Asset creation took longer than expected (duration=1163ms)
+2026-02-19 19:38:28.430,ERROR,"11913 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Validation failed for accountId=912, reason=Invalid phone number"
+2026-02-19 19:38:29.430,ERROR,11914 --- [nio-8080-exec-11] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=150
+2026-02-19 19:38:33.430,ERROR,11918 --- [nio-8080-exec-8] c.n.p.controller.MeshDataController      : Asset creation took longer than expected (duration=2331ms)
+2026-02-19 19:38:34.430,ERROR,11919 --- [nio-8080-exec-6] c.n.p.service.MeshDataService      : Asset not found for assetId=534
+2026-02-19 19:38:38.430,ERROR,"11923 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Failed to update account accountId=969, status=400"
+2026-02-19 19:38:39.430,ERROR,11924 --- [nio-8080-exec-10] c.n.p.controller.MeshDataController      : Health check OK
+2026-02-19 19:38:41.430,ERROR,11926 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Asset not found for assetId=1053
+2026-02-19 19:38:46.430,ERROR,11931 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Received DELETE request for /api/v1/accounts/232
+2026-02-19 19:38:47.430,ERROR,"11932 --- [nio-8080-exec-11] c.n.p.service.MeshDataService      : Failed to update account accountId=556, status=400"
+2026-02-19 19:38:49.430,ERROR,11934 --- [nio-8080-exec-2] c.n.p.controller.MeshDataController      : Successfully returned asset details for assetId=550
+2026-02-19 19:38:55.430,ERROR,"11940 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Failed to update account accountId=1061, status=400"
+2026-02-19 19:38:56.430,ERROR,11941 --- [nio-8080-exec-18] c.n.p.controller.MeshDataController      : Health check OK
+2026-02-19 19:38:57.430,ERROR,"11942 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetM"",""type"":""Bond""}"
+2026-02-19 19:38:58.430,ERROR,"11943 --- [nio-8080-exec-8] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=331, status=404"
+2026-02-19 19:38:59.430,ERROR,11944 --- [nio-8080-exec-1] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=739
+2026-02-19 19:39:00.430,ERROR,"11945 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Validation failed for accountId=397, reason=Invalid phone number"
+2026-02-19 19:39:17.430,ERROR,11962 --- [nio-8080-exec-1] c.n.p.service.MeshDataService      : Successfully returned asset details for assetId=434
+2026-02-19 19:39:19.430,ERROR,"11964 --- [nio-8080-exec-9] c.n.p.controller.MeshDataController      : Failed to return account details for accountId=736, status=404"
+2026-02-19 19:39:24.430,ERROR,11969 --- [nio-8080-exec-5] c.n.p.controller.MeshDataController      : Fetching account details for accountId=399
+2026-02-19 19:39:25.430,ERROR,11970 --- [nio-8080-exec-17] c.n.p.controller.MeshDataController      : Received GET request for /api/v1/logout458
+2026-02-19 19:39:27.430,ERROR,11972 --- [nio-8080-exec-1] c.n.p.controller.MeshDataController      : Fetching account details for accountId=718
+2026-02-19 19:39:29.430,ERROR,"11974 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=409, reason=Asset in use"
+2026-02-19 19:39:32.430,ERROR,"11977 --- [nio-8080-exec-15] c.n.p.service.MeshDataService      : Failed to return asset details for assetId=143, status=404"
+2026-02-19 19:39:34.430,ERROR,"11979 --- [nio-8080-exec-12] c.n.p.service.MeshDataService      : Failed to delete asset, assetId=710, reason=Asset in use"
+2026-02-19 19:39:35.430,ERROR,"11980 --- [nio-8080-exec-16] c.n.p.service.MeshDataService      : Could not delete asset assetId=156, status=409"
+2026-02-19 19:39:41.430,ERROR,11986 --- [nio-8080-exec-7] c.n.p.controller.MeshDataController      : Fetching asset details for assetId=306
+2026-02-19 19:39:42.430,ERROR,"11987 --- [nio-8080-exec-12] c.n.p.controller.MeshDataController      : Could not delete asset assetId=651, status=409"
+2026-02-19 19:39:44.430,ERROR,"11989 --- [nio-8080-exec-9] c.n.p.service.MeshDataService      : Creating asset with payload={""name"":""AssetAssetL"",""type"":""Bond""}"
+2026-02-19 19:39:48.430,ERROR,11993 --- [nio-8080-exec-2] c.n.p.service.MeshDataService      : Health check OK
