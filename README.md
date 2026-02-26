@@ -106,13 +106,6 @@ npm start
 
 Frontend runs at: http://localhost:3000 / http://localhost:5173 (depending on setup)
 
-## Stretch Goals Implemented
-
-Alert severity levels (LOW / HIGH)
-Export filtered logs to CSV
-Error count over time chart (optional future enhancement)
-Periodic polling (can be added using setInterval)
-
 ## Conclusion
 
 This project demonstrates a complete log monitoring and alerting workflow, covering ingestion, filtering, alert detection, explanation, and export functionality using modern web technologies.
